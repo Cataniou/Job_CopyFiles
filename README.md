@@ -7,16 +7,16 @@ Script para copiar\mover arquivos de uma pasta para outra.
 Clonar o projeto na raiz do Disco C:\ ou alterar os arquivos src/executers/executer.vbs, src/executers/caller.bat e src/executers/callerLoop.bat para apontar para o novo caminho.
 
 No arquivo src/moveFiles.js, alterar o valor das variaveis:
--enabled
+- enabled
 true ou false, é o que vai definir se o Script está habilitada ou não.
 
--action
+- action
 copy ou move, copy para copiar arquivos de uma pasta para outra e move para recortar os arquivos.
 
--oldDir
+- oldDir
 Caminho do diretório de origem dos arquivos, onde a divisão das pastas deve tem dois contra-barras '\\'
 
--newDir
+- newDir
 Caminho do diretório de destino dos arquivos, onde a divisão das pastas deve tem dois contra-barras '\\'
 
 
