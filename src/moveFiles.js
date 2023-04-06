@@ -20,13 +20,6 @@ if (enabled)
     const newDir = 'C:\\Transferencia de arquivos\\Pasta 2\\';
 
     const fs = require('fs');
-    const minimist = require('minimist');
-
-    const args = minimist(process.argv.slice(2), {
-        string: "lang", // --lang xml
-        boolean: ["version"], // --version
-        alias: { v: "version" },
-    });
 
     fs.readdir(oldDir, (error, files) => {
         if (error) console.log(error);
