@@ -8,15 +8,19 @@ Clonar o projeto na raiz do Disco C:\ ou alterar os arquivos src/executers/execu
 
 No arquivo src/moveFiles.js, alterar o valor das variaveis:
 - enabled
+
 true ou false, é o que vai definir se o Script está habilitada ou não.
 
 - action
+
 copy ou move, copy para copiar arquivos de uma pasta para outra e move para recortar os arquivos.
 
 - oldDir
+
 Caminho do diretório de origem dos arquivos, onde a divisão das pastas deve tem dois contra-barras '\\'
 
 - newDir
+
 Caminho do diretório de destino dos arquivos, onde a divisão das pastas deve tem dois contra-barras '\\'
 
 
