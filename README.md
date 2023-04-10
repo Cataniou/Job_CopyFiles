@@ -4,6 +4,8 @@ Script para copiar\mover arquivos de uma pasta para outra.
 # Getting Started
 1. Requisitos
 
+Installar o node JS na maquina.
+
 Clonar o projeto na raiz do Disco C:\ ou alterar os arquivos src/executers/executer.vbs, src/executers/caller.bat e src/executers/callerLoop.bat para apontar para o novo caminho.
 
 No arquivo src/moveFiles.js, alterar o valor das variaveis:
